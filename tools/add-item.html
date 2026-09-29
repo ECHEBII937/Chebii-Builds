@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add an item — Chebii Builds</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+main{max-width:720px;margin:0 auto;padding:2rem 1.25rem}
+label{display:block;font-weight:700;margin:1rem 0 .3rem}
+input,select,textarea{width:100%;padding:.55rem .9rem;border-radius:10px;border:2px solid var(--line);background:var(--card);color:var(--resin);font:inherit}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+pre{background:var(--resin);color:var(--plate);padding:1rem;border-radius:12px;overflow:auto;font-size:.85rem;white-space:pre-wrap}
+ol{padding-left:1.2rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>Add an item</h1>
+  <p class="lead">Fill this in, copy the result, paste it into <b>data/site.json</b>. Nothing is uploaded from here.</p>
+
+  <label for="title">Name</label><input id="title" placeholder="Coffee Shop Brand Kit">
+  <div class="row">
+    <div><label for="cat">Category</label><select id="cat"></select></div>
+    <div><label for="price">Price in KES (0 = free)</label><input id="price" type="number" min="0" value="0"></div>
+  </div>
+  <label for="desc">Short description (shows on the card)</label>
+  <input id="desc" placeholder="Logo, business card and menu templates in AI and PSD.">
+  <label for="details">Longer description (optional, shows in the pop-up)</label>
+  <textarea id="details" rows="3"></textarea>
+  <label for="tags">Tags, separated by commas</label><input id="tags" placeholder="branding, template">
+  <div class="row">
+    <div><label for="img">Preview image file name</label><input id="img" placeholder="preview.jpg"></div>
+    <div><label for="file">Free download file name (free items only)</label><input id="file" placeholder="brand-kit.zip"></div>
+  </div>
+  <div class="row">
+    <div><label for="model">3D model file, .stl (optional)</label><input id="model" placeholder="model.stl"></div>
+    <div><label for="buy">Payment link (optional)</label><input id="buy" placeholder="https://..."></div>
+  </div>
+  <div class="row">
+    <div><label for="specs">Specs (optional): Key: value, one per line</label><textarea id="specs" rows="3" placeholder="Material: PLA&#10;Layer height: 0.2 mm"></textarea></div>
+    <div><label><input id="feat" type="checkbox" style="width:auto"> Feature this item (big card)</label></div>
+  </div>
+
+  <h2>1. Make this folder and upload your files into it</h2>
+  <pre id="folder"></pre>
+  <h2>2. Paste this right after <code>"products": [</code> in data/site.json</h2>
+  <pre id="out"></pre>
+  <button class="btn" id="copy" type="button">Copy the block</button>
+  <p class="hint">It ends with a comma on purpose. Pasting at the top of the list means you never break the commas.</p>
+</main>
+<script>
+const $ = (i) => document.getElementById(i);
+fetch("../data/site.json").then((r) => r.json()).then((d) => {
+  $("cat").innerHTML = d.categories.map((c) => `<option value="${c.id}">${c.name}</option>`).join("");
+}).catch(() => { $("cat").innerHTML = '<option value="graphics">graphics</option><option value="models">models</option><option value="plans">plans</option><option value="teaching">teaching</option>'; });
+
+function build() {
+  const title = $("title").value.trim() || "Item name";
+  const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "item";
+  const dir = "products/" + slug + "/";
+  const price = Math.max(0, +$("price").value || 0);
+  const path = (f) => (f.trim() ? dir + f.trim() : "");
+  const o = {
+    title, category: $("cat").value, description: $("desc").value.trim(), price,
+    tags: $("tags").value.split(",").map((t) => t.trim()).filter(Boolean),
+    image: path($("img").value), file: price === 0 ? path($("file").value) : "",
+    buyLink: $("buy").value.trim(), date: new Date().toISOString().slice(0, 10), published: true
+  };
+  if ($("details").value.trim()) o.details = $("details").value.trim();
+  if ($("model").value.trim()) o.model = path($("model").value);
+  const sp = Object.fromEntries($("specs").value.split("\n").map((l) => l.split(/:(.*)/s)).filter((a) => a[1] && a[0].trim()).map((a) => [a[0].trim(), a[1].trim()]));
+  if (Object.keys(sp).length) o.specs = sp;
+  if ($("feat").checked) o.featured = true;
+  const files = [$("img").value, price === 0 ? $("file").value : "", $("model").value].map((f) => f.trim()).filter(Boolean);
+  $("folder").textContent = dir + (files.length ? "\n  " + files.join("\n  ") : "") + (price > 0 ? "\n\n(Paid item: keep the real files on Drive, only upload the preview.)" : "");
+  $("out").textContent = JSON.stringify(o, null, 2).replace(/^/gm, "    ") + ",";
+}
+document.querySelectorAll("input,select,textarea").forEach((e) => e.addEventListener("input", build));
+$("copy").onclick = () => navigator.clipboard.writeText($("out").textContent).then(() => { $("copy").textContent = "Copied"; setTimeout(() => $("copy").textContent = "Copy the block", 1500); });
+build();
+</script>
+</body>
+</html>
