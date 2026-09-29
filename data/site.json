@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "Chebii Builds",
+    "tagline": "Graphic design, 3D models and teaching resources by Emmanuel Chebii.",
+    "about": "I'm Emmanuel Chebii, a technical trainer and ICT professional in Nairobi. I make graphic designs, 3D models and learning resources, and I'm growing into 3D printing. This is my store for the things I build.",
+    "currency": "KES",
+    "whatsapp": "254700477205",
+    "email": "emmanuelchebii937@gmail.com",
+    "github": ""
+  },
+  "categories": [
+    { "id": "graphics", "name": "Graphic designs" },
+    { "id": "models", "name": "3D models" },
+    { "id": "plans", "name": "Plans and templates" },
+    { "id": "teaching", "name": "Teaching resources" }
+  ],
+  "products": [
+    {
+      "title": "Sample: Starter Logo Pack",
+      "category": "graphics",
+      "description": "Editable logo templates for small businesses. Replace this sample with your own design.",
+      "price": 500,
+      "tags": ["logo", "branding"],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-29",
+      "published": true
+    },
+    {
+      "title": "Sample: Phone Stand (STL)",
+      "category": "models",
+      "description": "A simple printable phone stand. Replace this sample with your own model.",
+      "price": 0,
+      "tags": ["3d print", "stl"],
+      "image": "",
+      "file": "products/sample-phone-stand/phone-stand.stl",
+      "buyLink": "",
+      "date": "2026-09-28",
+      "published": true
+    },
+    {
+      "title": "Sample: Lesson Plan Template",
+      "category": "teaching",
+      "description": "CBET-style lesson plan template. Replace this sample with your own resource.",
+      "price": 0,
+      "tags": ["cbet", "template"],
+      "image": "",
+      "file": "products/sample-lesson-plan-template/lesson-plan.docx",
+      "buyLink": "",
+      "date": "2026-09-27",
+      "published": true
+    }
+  ]
+}
