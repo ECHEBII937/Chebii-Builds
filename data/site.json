@@ -15,73 +15,425 @@
     },
     {
       "id": "models",
-      "name": "3D models"
+      "name": "Models and builds"
     },
     {
       "id": "plans",
-      "name": "Plans and templates"
+      "name": "Plans and guides"
     },
     {
       "id": "teaching",
-      "name": "Teaching resources"
+      "name": "Learning and tech projects"
     }
   ],
   "products": [
     {
-      "title": "Sample: Starter Logo Pack",
+      "title": "Navigate Centre Brand Identity Package",
       "category": "graphics",
-      "description": "Editable logo templates for small businesses. Replace this sample with your own design.",
-      "price": 500,
+      "description": "Complete branding concept for Navigate Centre: logo, colours, tagline and visual identity.",
+      "details": "Designed for a digital services, cyber, printing, branding and ICT support centre.",
+      "price": 5000,
       "tags": [
+        "branding",
         "logo",
-        "branding"
+        "identity"
       ],
+      "specs": {
+        "Includes": "Logo files, PNG previews, editable vector artwork"
+      },
       "image": "",
       "file": "",
       "buyLink": "",
       "date": "2026-09-29",
       "published": true,
-      "featured": true,
-      "details": "Editable logo templates for small businesses. Replace this sample with your own design.",
-      "specs": {
-        "Formats": "AI, PNG",
-        "Includes": "20 logos"
-      }
+      "featured": true
     },
     {
-      "title": "Sample: Phone Stand (STL)",
-      "category": "models",
-      "description": "A simple printable phone stand. Replace this sample with your own model.",
-      "price": 0,
+      "title": "Satys Twinkle Star Academy Logo",
+      "category": "graphics",
+      "description": "Clean vector recreation and refinement of a school logo for professional printing and branding.",
+      "details": "Rebuilt as scalable vector artwork suitable for signage, stationery and digital use.",
+      "price": 2500,
       "tags": [
-        "3d print",
-        "stl"
+        "logo",
+        "school",
+        "vector"
       ],
+      "specs": {
+        "Includes": "Preview image, vector artwork"
+      },
       "image": "",
-      "file": "products/sample-phone-stand/phone-stand.stl",
+      "file": "",
       "buyLink": "",
       "date": "2026-09-28",
-      "published": true,
-      "model": "products/sample-phone-stand/phone-stand.stl",
-      "specs": {
-        "Material": "PLA",
-        "Layer height": "0.2 mm",
-        "Supports": "None"
-      }
+      "published": true
     },
     {
-      "title": "Sample: Lesson Plan Template",
-      "category": "teaching",
-      "description": "CBET-style lesson plan template. Replace this sample with your own resource.",
-      "price": 0,
+      "title": "Ebrands Visual Identity",
+      "category": "graphics",
+      "description": "Branding concept for Ebrands, a creative design and digital solutions brand.",
+      "details": "Premium green and dark-grey visual direction with the tagline “We design brands that connect, convert, and last.”",
+      "price": 4000,
       "tags": [
-        "cbet",
-        "template"
+        "branding",
+        "logo",
+        "identity"
       ],
+      "specs": {
+        "Includes": "Logo concepts, previews, editable design files"
+      },
       "image": "",
-      "file": "products/sample-lesson-plan-template/lesson-plan.docx",
+      "file": "",
       "buyLink": "",
       "date": "2026-09-27",
+      "published": true
+    },
+    {
+      "title": "Hotel / Motel Receipt Template",
+      "category": "graphics",
+      "description": "Clean professional blank receipt layout designed for hospitality businesses.",
+      "details": "Simple reusable format with receipt number, date, particulars, amount and payment sections.",
+      "price": 1500,
+      "tags": [
+        "receipt",
+        "template",
+        "hospitality"
+      ],
+      "specs": {
+        "Includes": "Editable document, printable preview"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-26",
+      "published": true
+    },
+    {
+      "title": "Navigate Centre Printing Receipt",
+      "category": "graphics",
+      "description": "Simple branded receipt template for photocopying and printing services.",
+      "details": "Can be customized by small printing shops and cyber cafés.",
+      "price": 0,
+      "tags": [
+        "receipt",
+        "template",
+        "printing"
+      ],
+      "specs": {
+        "Includes": "Editable template, preview"
+      },
+      "image": "",
+      "file": "products/navigate-centre-printing-receipt/navigate-centre-printing-receipt.zip",
+      "buyLink": "",
+      "date": "2026-09-25",
+      "published": true
+    },
+    {
+      "title": "Professional School Letterhead Template",
+      "category": "graphics",
+      "description": "Professional school letterhead developed for official correspondence and administration.",
+      "details": "Suitable for recommendations, notices, letters and institutional communication.",
+      "price": 1500,
+      "tags": [
+        "letterhead",
+        "school",
+        "template"
+      ],
+      "specs": {
+        "Includes": "Editable artwork, print-ready PDF"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-24",
+      "published": true
+    },
+    {
+      "title": "Navigate Centre Tri-Fold Brochure",
+      "category": "graphics",
+      "description": "Six-panel brochure presenting digital, printing, branding, cyber and ICT services.",
+      "details": "Includes graphic design, software support, printing, branding and computer services.",
+      "price": 3500,
+      "tags": [
+        "brochure",
+        "print",
+        "branding"
+      ],
+      "specs": {
+        "Includes": "Editable design, PDF preview",
+        "Panels": "6"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-23",
+      "published": true
+    },
+    {
+      "title": "Children's Coloring Book Poster",
+      "category": "graphics",
+      "description": "Promotional poster template for a children's coloring book edition.",
+      "details": "Includes edition badge, title area and personalized presentation.",
+      "price": 0,
+      "tags": [
+        "poster",
+        "template",
+        "kids"
+      ],
+      "specs": {
+        "Includes": "Poster artwork, preview"
+      },
+      "image": "",
+      "file": "products/children-s-coloring-book-poster/children-s-coloring-book-poster.zip",
+      "buyLink": "",
+      "date": "2026-09-22",
+      "published": true
+    },
+    {
+      "title": "Custom Monitor Stand",
+      "category": "models",
+      "description": "Handmade custom monitor stand designed to improve desk height and organization.",
+      "details": "Physical prototype developed through practical measurement, fabrication and finishing.",
+      "price": 3500,
+      "tags": [
+        "handmade",
+        "desk",
+        "workshop"
+      ],
+      "specs": {
+        "Includes": "Prototype, photographs, measurements"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-21",
+      "published": true
+    },
+    {
+      "title": "Open MDF Storage Cupboard",
+      "category": "models",
+      "description": "Simple open shelving cupboard designed around efficient use of a 4x8 ft MDF sheet.",
+      "details": "Uses 3/4-inch MDF and includes a practical cutting plan with no doors.",
+      "price": 4500,
+      "tags": [
+        "mdf",
+        "furniture",
+        "cut list"
+      ],
+      "specs": {
+        "Material": "3/4-inch MDF",
+        "Sheet": "4x8 ft",
+        "Includes": "Front view, dimensions, cut list"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-20",
+      "published": true
+    },
+    {
+      "title": "1.2 Metre Handmade Model Boat",
+      "category": "models",
+      "description": "Large handmade model boat developed as a long-term woodworking and fabrication project.",
+      "details": "Approximately 1.2 metres long with a progressively developed hull and structural components.",
+      "price": 8000,
+      "tags": [
+        "model boat",
+        "woodwork",
+        "handmade"
+      ],
+      "specs": {
+        "Length": "About 1.2 m",
+        "Includes": "Physical model, progress photos, measurements"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-19",
+      "published": true,
+      "featured": true
+    },
+    {
+      "title": "Custom Wooden Desk Raiser",
+      "category": "models",
+      "description": "Simple wooden desk-raising platform designed for computer and workspace organization.",
+      "details": "Can be reproduced using MDF, plywood or timber with basic workshop tools.",
+      "price": 0,
+      "tags": [
+        "desk",
+        "woodwork",
+        "diy"
+      ],
+      "specs": {
+        "Includes": "Photos, measurements, construction concept"
+      },
+      "image": "",
+      "file": "products/custom-wooden-desk-raiser/custom-wooden-desk-raiser.zip",
+      "buyLink": "",
+      "date": "2026-09-18",
+      "published": true
+    },
+    {
+      "title": "DXF CNC Cutting Template",
+      "category": "models",
+      "description": "Basic vector/DXF template prepared for CNC routing, laser cutting and fabrication experiments.",
+      "details": "Suitable as a starting point for signs, panels, furniture components and decorative designs.",
+      "price": 0,
+      "tags": [
+        "dxf",
+        "cnc",
+        "laser cutting"
+      ],
+      "specs": {
+        "Formats": "DXF, SVG",
+        "Includes": "Preview images"
+      },
+      "image": "",
+      "file": "products/dxf-cnc-cutting-template/dxf-cnc-cutting-template.zip",
+      "buyLink": "",
+      "date": "2026-09-17",
+      "published": true
+    },
+    {
+      "title": "Furniture Cut-List Planner",
+      "category": "plans",
+      "description": "Practical planning template that converts furniture dimensions into a workshop-ready cut list.",
+      "details": "Includes material thickness, component dimensions and sheet optimization.",
+      "price": 2000,
+      "tags": [
+        "furniture",
+        "cut list",
+        "planning"
+      ],
+      "specs": {
+        "Includes": "Dimensioned drawings, tables, cut-list documents"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-16",
+      "published": true
+    },
+    {
+      "title": "Event QR Ticketing Prototype",
+      "category": "teaching",
+      "description": "Experimental digital ticketing system using online forms, spreadsheets, QR codes and automated ticket generation.",
+      "details": "Useful for small events requiring registration and basic attendee tracking.",
+      "price": 0,
+      "tags": [
+        "qr",
+        "ticketing",
+        "automation"
+      ],
+      "specs": {
+        "Includes": "Forms, spreadsheet structure, QR samples, scripts"
+      },
+      "image": "",
+      "file": "products/event-qr-ticketing-prototype/event-qr-ticketing-prototype.zip",
+      "buyLink": "",
+      "date": "2026-09-15",
+      "published": true
+    },
+    {
+      "title": "Book Rental QR Workflow",
+      "category": "teaching",
+      "description": "Simple QR-based workflow for recording and managing book rentals.",
+      "details": "Designed for easy issuing, returning and identifying of books.",
+      "price": 0,
+      "tags": [
+        "qr",
+        "workflow",
+        "library"
+      ],
+      "specs": {
+        "Includes": "QR samples, digital forms, workflow documentation"
+      },
+      "image": "",
+      "file": "products/book-rental-qr-workflow/book-rental-qr-workflow.zip",
+      "buyLink": "",
+      "date": "2026-09-14",
+      "published": true
+    },
+    {
+      "title": "Marakwet Security Alert Android App",
+      "category": "teaching",
+      "description": "Android application prototype for recording and managing local security alerts.",
+      "details": "Built with SQLite offline storage and Jetpack Compose for the Android interface.",
+      "price": 15000,
+      "tags": [
+        "android",
+        "app",
+        "source code"
+      ],
+      "specs": {
+        "Built with": "SQLite, Jetpack Compose",
+        "Includes": "Android Studio project, source code, APK/build files, screenshots"
+      },
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-13",
+      "published": true,
+      "featured": true
+    },
+    {
+      "title": "ICT Learning Session Plan Template",
+      "category": "teaching",
+      "description": "Reusable TVET session-planning template for structured ICT teaching.",
+      "details": "Can cover computer operations, networking, software, digital literacy and practical activities.",
+      "price": 0,
+      "tags": [
+        "tvet",
+        "session plan",
+        "ict"
+      ],
+      "specs": {
+        "Includes": "Word template, sample completed session plans"
+      },
+      "image": "",
+      "file": "products/ict-learning-session-plan-template/ict-learning-session-plan-template.zip",
+      "buyLink": "",
+      "date": "2026-09-12",
+      "published": true
+    },
+    {
+      "title": "Graphic Design Practice Exercises",
+      "category": "teaching",
+      "description": "Practical graphic-design exercises for learning layouts, branding, vector design and image editing.",
+      "details": "Suitable for beginners and students learning professional design workflows.",
+      "price": 0,
+      "tags": [
+        "graphic design",
+        "exercises",
+        "students"
+      ],
+      "specs": {
+        "Includes": "Exercise files, sample designs, editable project files"
+      },
+      "image": "",
+      "file": "products/graphic-design-practice-exercises/graphic-design-practice-exercises.zip",
+      "buyLink": "",
+      "date": "2026-09-11",
+      "published": true
+    },
+    {
+      "title": "Small ICT Business Setup Guide",
+      "category": "plans",
+      "description": "Practical guide for planning a small cyber, printing, branding and ICT support centre.",
+      "details": "Covers service selection, equipment planning, branding, customer workflows and basic digital operations.",
+      "price": 0,
+      "tags": [
+        "business",
+        "ict",
+        "guide"
+      ],
+      "specs": {
+        "Includes": "Planning notes, service lists, templates, workflow documents"
+      },
+      "image": "",
+      "file": "products/small-ict-business-setup-guide/small-ict-business-setup-guide.zip",
+      "buyLink": "",
+      "date": "2026-09-10",
       "published": true
     }
   ]
