@@ -9,47 +9,399 @@
     "github": ""
   },
   "categories": [
-    { "id": "graphics", "name": "Graphic designs" },
-    { "id": "models", "name": "3D models" },
-    { "id": "plans", "name": "Plans and templates" },
-    { "id": "teaching", "name": "Teaching resources" }
+    {
+      "id": "graphics",
+      "name": "Graphic designs"
+    },
+    {
+      "id": "models",
+      "name": "3D models"
+    },
+    {
+      "id": "plans",
+      "name": "Plans and templates"
+    },
+    {
+      "id": "teaching",
+      "name": "Teaching resources"
+    }
   ],
   "products": [
     {
-      "title": "Sample: Starter Logo Pack",
+      "title": "Startup Logo Pack",
       "category": "graphics",
-      "description": "Editable logo templates for small businesses. Replace this sample with your own design.",
+      "description": "20 editable logo templates for small businesses.",
       "price": 500,
-      "tags": ["logo", "branding"],
+      "tags": [
+        "logo",
+        "branding"
+      ],
       "image": "",
       "file": "",
       "buyLink": "",
       "date": "2026-09-29",
+      "published": true,
+      "featured": true,
+      "specs": {
+        "Formats": "AI, PNG",
+        "Includes": "20 logos"
+      }
+    },
+    {
+      "title": "Business Card Templates",
+      "category": "graphics",
+      "description": "10 print-ready business card layouts, front and back.",
+      "price": 300,
+      "tags": [
+        "business card",
+        "print"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-26",
+      "published": true,
+      "specs": {
+        "Formats": "CDR, PDF",
+        "Size": "90 x 55 mm"
+      }
+    },
+    {
+      "title": "Social Media Post Kit",
+      "category": "graphics",
+      "description": "30 editable post and story templates for Instagram and Facebook.",
+      "price": 400,
+      "tags": [
+        "social media",
+        "template"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-23",
       "published": true
     },
     {
-      "title": "Sample: Phone Stand (STL)",
+      "title": "Event Poster Templates",
+      "category": "graphics",
+      "description": "8 bold poster layouts for events, festivals and launches.",
+      "price": 350,
+      "tags": [
+        "poster",
+        "event"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-20",
+      "published": true,
+      "specs": {
+        "Formats": "PSD, PNG",
+        "Size": "A3"
+      }
+    },
+    {
+      "title": "Brand Identity Starter Kit",
+      "category": "graphics",
+      "description": "Logo, colours, fonts, cards and letterhead in one package.",
+      "price": 1500,
+      "tags": [
+        "branding",
+        "kit"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-17",
+      "published": true,
+      "details": "A complete starter brand for a new business: logo, colour palette, font pairing, business card, letterhead and social profile images.",
+      "specs": {
+        "Formats": "AI, PSD, PDF"
+      }
+    },
+    {
+      "title": "Free Icon Set",
+      "category": "graphics",
+      "description": "40 simple icons for websites and presentations.",
+      "price": 0,
+      "tags": [
+        "icons",
+        "svg"
+      ],
+      "image": "",
+      "file": "products/free-icon-set/icons.zip",
+      "buyLink": "",
+      "date": "2026-09-14",
+      "published": true,
+      "specs": {
+        "Format": "SVG",
+        "Count": "40"
+      }
+    },
+    {
+      "title": "Phone Stand",
       "category": "models",
-      "description": "A simple printable phone stand. Replace this sample with your own model.",
+      "description": "Simple printable phone stand. No supports needed.",
       "price": 0,
-      "tags": ["3d print", "stl"],
+      "tags": [
+        "stl",
+        "3d print"
+      ],
       "image": "",
-      "file": "products/sample-phone-stand/phone-stand.stl",
+      "file": "products/phone-stand/phone-stand.stl",
       "buyLink": "",
-      "date": "2026-09-28",
+      "date": "2026-09-11",
+      "published": true,
+      "model": "products/phone-stand/phone-stand.stl",
+      "specs": {
+        "Material": "PLA",
+        "Layer height": "0.2 mm",
+        "Supports": "None"
+      }
+    },
+    {
+      "title": "Desk Cable Organizer",
+      "category": "models",
+      "description": "Clip that keeps charging cables in place on your desk.",
+      "price": 0,
+      "tags": [
+        "stl",
+        "desk"
+      ],
+      "image": "",
+      "file": "products/desk-cable-organizer/cable-organizer.stl",
+      "buyLink": "",
+      "date": "2026-09-08",
+      "published": true,
+      "model": "products/desk-cable-organizer/cable-organizer.stl",
+      "specs": {
+        "Material": "PLA",
+        "Layer height": "0.2 mm"
+      }
+    },
+    {
+      "title": "Miniature Chess Set",
+      "category": "models",
+      "description": "Full 32-piece chess set designed for small prints.",
+      "price": 800,
+      "tags": [
+        "chess",
+        "stl"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-09-05",
+      "published": true,
+      "specs": {
+        "Material": "PLA",
+        "Layer height": "0.12 mm",
+        "Pieces": "32"
+      }
+    },
+    {
+      "title": "Headphone Hook",
+      "category": "models",
+      "description": "Under-desk hook to hang headphones.",
+      "price": 0,
+      "tags": [
+        "stl",
+        "desk"
+      ],
+      "image": "",
+      "file": "products/headphone-hook/headphone-hook.stl",
+      "buyLink": "",
+      "date": "2026-09-02",
+      "published": true,
+      "model": "products/headphone-hook/headphone-hook.stl",
+      "specs": {
+        "Material": "PETG or PLA",
+        "Layer height": "0.2 mm"
+      }
+    },
+    {
+      "title": "Plant Pot with Drainage",
+      "category": "models",
+      "description": "Small pot with a drainage tray in one print.",
+      "price": 200,
+      "tags": [
+        "home",
+        "garden"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-08-30",
+      "published": true,
+      "specs": {
+        "Material": "PLA",
+        "Layer height": "0.2 mm"
+      }
+    },
+    {
+      "title": "Custom Name Keychain Template",
+      "category": "models",
+      "description": "Editable keychain model. Send me a name and I customise it.",
+      "price": 150,
+      "tags": [
+        "keychain",
+        "custom"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-08-27",
       "published": true
     },
     {
-      "title": "Sample: Lesson Plan Template",
-      "category": "teaching",
-      "description": "CBET-style lesson plan template. Replace this sample with your own resource.",
-      "price": 0,
-      "tags": ["cbet", "template"],
+      "title": "Small Workshop Layout Plan",
+      "category": "plans",
+      "description": "Floor plan for a compact ICT and design workshop.",
+      "price": 500,
+      "tags": [
+        "layout",
+        "workshop"
+      ],
       "image": "",
-      "file": "products/sample-lesson-plan-template/lesson-plan.docx",
+      "file": "",
       "buyLink": "",
-      "date": "2026-09-27",
-      "published": true
+      "date": "2026-08-24",
+      "published": true,
+      "specs": {
+        "Format": "PDF",
+        "Scale": "1:50"
+      }
+    },
+    {
+      "title": "Cyber Cafe Setup Plan",
+      "category": "plans",
+      "description": "Layout, wiring and equipment list for a 10-seat cyber cafe.",
+      "price": 600,
+      "tags": [
+        "cyber cafe",
+        "ict"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-08-21",
+      "published": true,
+      "details": "A practical plan covering desk layout, network cabling, power, and an equipment checklist for a small cyber cafe.",
+      "specs": {
+        "Format": "PDF",
+        "Seats": "10"
+      }
+    },
+    {
+      "title": "3D Printer Enclosure Plans",
+      "category": "plans",
+      "description": "Build plans for a low-cost enclosure for hobby 3D printers.",
+      "price": 700,
+      "tags": [
+        "3d printing",
+        "diy"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-08-18",
+      "published": true,
+      "specs": {
+        "Format": "PDF",
+        "Difficulty": "Beginner"
+      }
+    },
+    {
+      "title": "Business Startup Checklist",
+      "category": "plans",
+      "description": "One-page checklist for launching a small business in Kenya.",
+      "price": 0,
+      "tags": [
+        "business",
+        "checklist"
+      ],
+      "image": "",
+      "file": "products/business-startup-checklist/startup-checklist.pdf",
+      "buyLink": "",
+      "date": "2026-08-15",
+      "published": true,
+      "specs": {
+        "Format": "PDF",
+        "Pages": "1"
+      }
+    },
+    {
+      "title": "CBET Lesson Plan Template",
+      "category": "teaching",
+      "description": "Ready-to-fill lesson plan template for CBET units.",
+      "price": 0,
+      "tags": [
+        "cbet",
+        "lesson plan"
+      ],
+      "image": "",
+      "file": "products/cbet-lesson-plan-template/lesson-plan-template.docx",
+      "buyLink": "",
+      "date": "2026-08-12",
+      "published": true,
+      "specs": {
+        "Format": "DOCX"
+      }
+    },
+    {
+      "title": "Scheme of Work Template",
+      "category": "teaching",
+      "description": "Term scheme of work layout for TVET trainers.",
+      "price": 0,
+      "tags": [
+        "cbet",
+        "scheme of work"
+      ],
+      "image": "",
+      "file": "products/scheme-of-work-template/scheme-of-work.docx",
+      "buyLink": "",
+      "date": "2026-08-09",
+      "published": true,
+      "specs": {
+        "Format": "DOCX"
+      }
+    },
+    {
+      "title": "Assessment Tools Pack",
+      "category": "teaching",
+      "description": "Practical and written assessment templates with marking guides.",
+      "price": 400,
+      "tags": [
+        "assessment",
+        "poe"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-08-06",
+      "published": true,
+      "specs": {
+        "Format": "DOCX, PDF"
+      }
+    },
+    {
+      "title": "Digital Literacy Worksheet Pack",
+      "category": "teaching",
+      "description": "25 printable worksheets for computer basics classes.",
+      "price": 300,
+      "tags": [
+        "digital literacy",
+        "worksheets"
+      ],
+      "image": "",
+      "file": "",
+      "buyLink": "",
+      "date": "2026-08-03",
+      "published": true,
+      "specs": {
+        "Format": "PDF",
+        "Worksheets": "25"
+      }
     }
   ]
 }
